@@ -1,4 +1,5 @@
 .cover__overlay {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,9 +12,7 @@
   width: 100%;
   color: #ffffff;
   text-decoration: none;
-  position: relative;
 }
-
 .cover__overlay::before {
   content: '';
   background-color: #2a2c2f;
@@ -23,24 +22,20 @@
   position: absolute;
   transition: 0.3s;
 }
-
 .cover__overlay:hover:before {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024x) {
   .cover__overlay {
     min-height: 640px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .cover__overlay {
     min-height: 480px;
   }
 }
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .cover__overlay {
     min-height: 200px;
   }
