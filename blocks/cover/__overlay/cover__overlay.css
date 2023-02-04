@@ -25,7 +25,7 @@
 .cover__overlay:hover:before {
   opacity: 0.8;
 }
-@media screen and (max-width: 1024x) {
+@media screen and (max-width: 1024px) {
   .cover__overlay {
     min-height: 640px;
   }
