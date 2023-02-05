@@ -5,9 +5,10 @@
   font-weight: 400;
   color: #ffffff;
   transition: 0.3s;
+  margin: 0;
 }
 .header__lang-link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 @media screen and (max-width: 424px) {
   .header__lang-link {
