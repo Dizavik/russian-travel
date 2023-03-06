@@ -4,13 +4,13 @@
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
-  transition: 0.3s;
   margin: 0;
 }
 .header__lang-link:hover {
   opacity: 0.6;
+  transition: 0.3s;
 }
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

@@ -1,12 +1,5 @@
 .place__website {
   grid-area: place__website;
-  text-align: start;
   align-self: end;
   margin: 0;
-}
-@media screen and (max-width: 700px) {
-  .place__website {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
 }
